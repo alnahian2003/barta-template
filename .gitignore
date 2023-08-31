@@ -2,4 +2,4 @@
 node_modules/
 
 # Ignore any compiled or build files
-/dist/
+dist/
