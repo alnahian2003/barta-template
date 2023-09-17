@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./templates/**/*.{html,js}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Plus Jakarta Sans'],
+      },
+    },
   },
   plugins: [],
 };
