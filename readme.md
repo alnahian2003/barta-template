@@ -1,6 +1,17 @@
+![Barta](screenshots/preview.png)
+
 # Barta — Starter HTML Template
 
 A minimal, elegant social media starter template built with Tailwind CSS.
+
+<details>
+<summary>Screenshots</summary>
+
+![Barta](screenshots/preview.png)
+![Barta](screenshots/register.png)
+![Barta](screenshots/login.png)
+
+</details>
 
 ## Getting Started
 
@@ -40,6 +51,8 @@ This will generate a dist/ folder with optimized static files.
 You'll find various pages and templates inside the `templates/` directory.
 
 You can also get specific components from `templates/components/` directory.
+
+> You should also get rid of the `Screenshots/` directory. This includes some preview images of the app and its pages.
 
 ## Built With
 
