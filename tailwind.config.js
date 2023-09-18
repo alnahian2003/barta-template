@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Plus Jakarta Sans'],
+        sans: ['Inter', 'Plus Jakarta Sans', 'Rubik'],
       },
     },
   },
