@@ -5,9 +5,7 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
-    <link
-      href="../dist/output.css"
-      rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- AlpineJS CDN -->
     <script
@@ -24,6 +22,12 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet" />
+
+    <style>
+      * {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
   </head>
   <body class="bg-gray-100">
     <header>
@@ -134,7 +138,7 @@
                   aria-labelledby="user-menu-button"
                   tabindex="-1">
                   <a
-                    href="#"
+                    href="./profile.html"
                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     role="menuitem"
                     tabindex="-1"
@@ -142,12 +146,12 @@
                     >Your Profile</a
                   >
                   <a
-                    href="#"
+                    href="./edit-profile.html"
                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     role="menuitem"
                     tabindex="-1"
                     id="user-menu-item-1"
-                    >Settings</a
+                    >Edit Profile</a
                   >
                   <a
                     href="#"
@@ -251,14 +255,14 @@
                 >Create New Post</a
               >
               <a
-                href="#"
+                href="./profile.html"
                 class="block px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-800"
                 >Your Profile</a
               >
               <a
-                href="#"
+                href="./edit-profile.html"
                 class="block px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-800"
-                >Settings</a
+                >Edit Profile</a
               >
               <a
                 href="#"
@@ -293,7 +297,7 @@
             <!-- Content -->
             <div class="text-gray-700 font-normal w-full">
               <textarea
-                class="block w-full pt-2 text-gray-900 rounded-lg border-none outline-none focus:ring-0 focus:ring-offset-0"
+                class="block w-full p-2 pt-2 text-gray-900 rounded-lg border-none outline-none focus:ring-0 focus:ring-offset-0"
                 name="barta"
                 rows="2"
                 placeholder="What's going on, Shamim?"></textarea>
