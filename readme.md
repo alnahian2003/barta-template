@@ -33,6 +33,7 @@ You can also get specific components from `templates/components/` directory.
 
 > You just need to copy the relevant codes from this templates to your own project.
 
+
 ## Built With
 
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework
