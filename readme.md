@@ -17,34 +17,13 @@ A minimal, elegant social media starter template built with Tailwind CSS.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-
-- Node.js
-- NPM
-
 ### Installing
 
-1. Clone the repo
+Clone the repo
 
 ```
 git clone https://github.com/alnahian2003/barta-template.git
 ```
-
-2. Install NPM packages
-
-```
-npm install
-```
-
-This will install all dependencies listed in package.json.
-
-3. Build for production
-
-```
-npm run build
-```
-
-This will generate a dist/ folder with optimized static files.
 
 ## Usage
 
@@ -52,11 +31,13 @@ You'll find various pages and templates inside the `templates/` directory.
 
 You can also get specific components from `templates/components/` directory.
 
-> You should also get rid of the `Screenshots/` directory. This includes some preview images of the app and its pages.
+> You just need to copy the relevant codes from this templates to your own project.
+
 
 ## Built With
 
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+- [Alpine JS](https://alpinejs.dev/)
 - [Node.js](https://nodejs.org)
 - [NPM](https://www.npmjs.com/)
 
